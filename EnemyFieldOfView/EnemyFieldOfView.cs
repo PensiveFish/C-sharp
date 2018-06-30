@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class EnemyFieldOfView : MonoBehaviour
 {
     [Header("FieldOfView variables")]
-    public float viewRadius = 15f; //how far field of view
+    public float viewRadius = 15f; //how far field of view is
     [Range(0, 360)] //clamp from 0 to 360 since it can't be more than circle
     public float viewAngle = 100f; //angle of view
     public LayerMask detectMask; //layer for objects on which we would like to react
