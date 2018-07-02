@@ -12,7 +12,7 @@ public class MazeLoader : MonoBehaviour {
     Vector3 startPos;
 
 	void Start ()
-    {
+    	{
         if(startTransform == null || wall == null || floor == null)
         {
             Debug.LogError("Empty variable startTransform/wall/floor on " + gameObject.name.ToUpper());
