@@ -1,4 +1,5 @@
 This system is only displaying dialogue between 2 objects.
+
 Put Dialogue.cs to any object in your scene and DialogueSystem.cs to canvas, for example.
 
 DialogueSystem.cs should be turned off at start of the scene.
