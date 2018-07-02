@@ -4,3 +4,5 @@ This maze generator is using hunt and kill algorithm.
 
 Function InitializeMaze() inside MazeLoader.cs was made for wall and floor prefab with size of Vector3(2, 0.1, 2) where 0.1 can be adjusted, but 2 is related with scope variable size.
 Therefore you should adjust the size in order of good work with different wall and floor prefabs.
+
+Put MazeLoader.cs on any object inside your scene.
